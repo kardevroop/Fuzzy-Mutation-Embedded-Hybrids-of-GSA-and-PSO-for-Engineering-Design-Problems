@@ -3,9 +3,6 @@ function [timeexc,gbest_rank,gbest_particle]=gps(functionNum, a, b)
 %clc
 rng('shuffle');
 % these need variables to be changed for each function, refer to the tables in the paper
-% ub=5.12;
-% lb=-5.12;
-% dimension=30;
 % variables requiring change ends
 ubArray=[100,10,100,100,30,100,1.28,500,5.12,32,600,50,50,65.53,5,5,15,5,1,1,10,10,10];
 lbArray=[-100,-10,-100,-100,-30,-100,-1.28,-500,-5.12,-32,-600,-50,-50,-65.53,-5,-5,-5,-5,0,0,0,0,0];
